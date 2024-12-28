@@ -27,4 +27,5 @@ public class SongController {
     public ResponseEntity<SongDTO> addSong(@RequestBody SongDTO songDTO) {
         return new ResponseEntity<>(songService.addSong(songDTO), HttpStatus.CREATED);
     }
+
 }
