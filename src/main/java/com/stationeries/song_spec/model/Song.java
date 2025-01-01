@@ -3,13 +3,13 @@ package com.stationeries.song_spec.model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import java.util.List;
 
-@Entity
 @Data
+@Entity
 public class Song {
 
     @Id
